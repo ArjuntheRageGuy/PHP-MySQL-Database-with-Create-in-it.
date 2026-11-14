@@ -1,10 +1,10 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "@12junj45p312R4f0n";
+$servername = "sql201.infinityfree.com";
+$username = "if0_43436744";
+$password = "SN1DLSrKOS6";
 
 try {
-    $db = new PDO("mysql:host=127.0.0.1;port=4306;dbname=oop_crud", $username, $password);
+    $db = new PDO("mysql:host=$servername;dbname=if0_43436744_oop_crud", $username, $password);
     // $db = new PDO("mysql:host=$servername;dbname=oop_crud", $username, $password);
     // set the PDO error mode to exception
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
