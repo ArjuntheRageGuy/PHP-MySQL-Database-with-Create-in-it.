@@ -66,11 +66,11 @@ a {
             <!-- <td>
                 <a href="update.php?id=<?= $value['id'] ?>">Edit</a>
                 |
-                <a href="../process/deleteprocess.php?id=<?= $value['id'] ?>"
+                <a href="../process/deleteprocess.php?id=<?= $value['id'] ?>" style="color: #f71010;"
                    onclick="return confirm('Do you really want to remove this user?');">
                     Remove
-                </a>
-            </td> -->
+                </a> -->
+            </td>
         </tr>
         <?php } ?>
     </tbody>
